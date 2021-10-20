@@ -33,67 +33,6 @@
     </script>
   <link href="style.css" rel="stylesheet"></head>
 
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    問い合わせフォーム
-  </button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">問い合わせフォーム</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form class="" action="index.html" method="post">
-          <p id="top">
-          １．氏名を記載してください。
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="お山の" required>
-          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="花子" required>
-          </p>
-          <p>
-          ２．E-mailを記載してください。
-          <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="xxx@vc.ibaraki.ac.jp" required>
-          </p>
-          <p>
-          ３．身分をチェックしてください。
-          <input type="radio" name="mibun" value="1">教員
-          <input type="radio" name="mibun" value="2">職員
-          <input type="radio" name="mibun" value="3">学生
-          <input type="radio" name="mibun" value="3">名誉教授
-          <input type="radio" name="mibun" value="3">その他
-          </p>
-          <p>
-          ４．教員・学生の方は所属学部を以下から選んでください。<br>
-          <select class="form-select" aria-label="Default select example">
-          <option selected>リストから選択</option>
-          <option value="1">人文社会科学部</option>
-          <option value="2">教育学部</option>
-          <option value="3">理学部</option>
-          <option value="4">工学部</option>
-          <option value="4">農学部</option>
-          <option value="4">その他</option>
-          </select>
-          </p>
-          <p>
-          ５．学生の方は学籍番号を記載してください。
-          <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="1234567" required>
-          </p>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">６．自由に記述してください。</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
-          <button type="button" class="btn btn-primary">送信</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <body data-pagecolor="green">
     <div class="container-fluid">
@@ -214,6 +153,69 @@
                 <p>日本の各大学や研究機関が公開している機関リポジトリを横断検索できます。</p>
               </div>
               </div>
+                  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    問い合わせフォーム
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">問い合わせフォーム</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="" action="index.html" method="post">
+          <p id="top">
+          １．氏名を記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="お山の" required>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="花子" required>
+          </p>
+          <p>
+          ２．E-mailを記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="xxx@vc.ibaraki.ac.jp" required>
+          </p>
+          <p>
+          ３．身分をチェックしてください。
+          <input type="radio" name="mibun" value="1">教員
+          <input type="radio" name="mibun" value="2">職員
+          <input type="radio" name="mibun" value="3">学生
+          <input type="radio" name="mibun" value="3">名誉教授
+          <input type="radio" name="mibun" value="3">その他
+          </p>
+          <p>
+          ４．教員・学生の方は所属学部を以下から選んでください。<br>
+          <select class="form-select" aria-label="Default select example">
+          <option selected>リストから選択</option>
+          <option value="1">人文社会科学部</option>
+          <option value="2">教育学部</option>
+          <option value="3">理学部</option>
+          <option value="4">工学部</option>
+          <option value="4">農学部</option>
+          <option value="4">その他</option>
+          </select>
+          </p>
+          <p>
+          ５．学生の方は学籍番号を記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="1234567" required>
+          </p>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">６．自由に記述してください。</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+          <button type="button" class="btn btn-primary">送信</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
             </div>
           </div>
