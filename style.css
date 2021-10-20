@@ -4773,17 +4773,6 @@ html {
   html.wf-active, html.loading-delay {
     visibility: visible; }
 
-body {
-  overflow-x: hidden;
-  padding-top: 1rem;
-  font-size: 12px;
-  background-color: #EEEEEE;
- }
-  @media (min-width: 970px) {
-    body {
-      font-size: 14px; } }
-
-
 main {
   margin-bottom: 3rem; }
 
